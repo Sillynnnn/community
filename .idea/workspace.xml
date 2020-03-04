@@ -1,7 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1933749-789a-4c52-9692-58007d606c57" name="Default Changelist" comment="发布帖子" />
+    <list default="true" id="b1933749-789a-4c52-9692-58007d606c57" name="Default Changelist" comment="发布帖子">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/community.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/CommunityApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/annotation/LoginRequired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/aspect/AlphaAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/aspect/ServiceLogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/AlphaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/KaptchaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/QuartzConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/SecurityConfig$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/ThreadPoolConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/config/WkConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/AlphaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/DataController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/DiscussPostController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/FollowController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/LikeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/MessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/SearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/ShareController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/advice/ExceptionAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/interceptor/AlphaInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/interceptor/DataInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/interceptor/LoginRequiredInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/interceptor/LoginTicketInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/controller/interceptor/MessageInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/dao/AlphaDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/dao/AlphaDaoHibernateImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/dao/AlphaDaoMyBatisImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/dao/CommentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/dao/DiscussPostMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/dao/LoginTicketMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/dao/MessageMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/dao/elasticsearch/DiscussPostRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/entity/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/entity/DiscussPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/entity/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/entity/LoginTicket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/entity/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/entity/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/event/EventConsumer$UploadTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/event/EventConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/event/EventProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/quartz/AlphaJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/quartz/PostScoreRefreshJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/AlphaService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/AlphaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/DataService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/DataService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/DiscussPostService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/DiscussPostService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/DiscussPostService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/ElasticsearchService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/ElasticsearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/FollowService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/FollowService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/FollowService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/LikeService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/LikeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/MessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/UserService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/util/CommunityConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/util/CommunityUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/util/CookieUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/util/HostHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/util/MailClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/util/RedisKeyUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/util/SensitiveFilter$TrieNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/community/util/SensitiveFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/BlockingQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/CaffeineTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/CommunityApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/ElasticsearchTests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/ElasticsearchTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/KafkaConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/KafkaProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/KafkaTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/LoggerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/MailTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/MapperTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/QuartzTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/RedisTests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/RedisTests$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/RedisTests$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/RedisTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/SensitiveTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/ThreadPoolTests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/ThreadPoolTests$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/ThreadPoolTests$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/ThreadPoolTests$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/ThreadPoolTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/TransactionTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/community/WkTests.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +130,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>utext</find>
-      <find>target</find>
-      <find>redis</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -60,14 +163,14 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\community\src\main\resources\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\workspace\community\src\test\java\com\nowcoder\community" />
       <recent name="D:\work\workspace\community\src\main\java\com\nowcoder\community\config" />
       <recent name="D:\work\workspace\community\src\main\resources\mapper" />
       <recent name="D:\work\workspace\community\src\main\resources" />
-      <recent name="D:\work\workspace\community\src\main\resources\templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\work\workspace\community\src\main\resources\templates" />
     </key>
   </component>
@@ -83,13 +186,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CommunityApplication">
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
     <configuration name="CommunityApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.CommunityApplication" />
       <module name="community" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.ReverseWord" />
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,29 +258,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuartzTests.testDeleteJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="community" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nowcoder.community.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nowcoder.community" />
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.QuartzTests" />
-      <option name="METHOD_NAME" value="testDeleteJob" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nowcoder.community.CommunityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWord" />
         <item itemvalue="Application.CommunityApplication" />
         <item itemvalue="JUnit.CaffeineTests.testCache" />
         <item itemvalue="JUnit.CaffeineTests.initDataForTest" />
         <item itemvalue="Application.WkTests" />
-        <item itemvalue="JUnit.QuartzTests.testDeleteJob" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +287,37 @@
       <updated>1559051647920</updated>
       <workItem from="1570796208329" duration="34000" />
       <workItem from="1570796262882" duration="1531000" />
+      <workItem from="1571056183545" duration="610000" />
+      <workItem from="1571122482853" duration="619000" />
+      <workItem from="1571129068702" duration="859000" />
+      <workItem from="1571143216180" duration="704000" />
+      <workItem from="1571210689747" duration="625000" />
+      <workItem from="1571211517902" duration="12000" />
+      <workItem from="1571229200887" duration="734000" />
+      <workItem from="1571288182625" duration="722000" />
+      <workItem from="1571295774288" duration="2198000" />
+      <workItem from="1571319002423" duration="1294000" />
+      <workItem from="1571383863294" duration="184000" />
+      <workItem from="1571384573443" duration="178000" />
+      <workItem from="1571442744173" duration="7548000" />
+      <workItem from="1571554759113" duration="2731000" />
+      <workItem from="1571742977884" duration="383000" />
+      <workItem from="1571743453251" duration="113000" />
+      <workItem from="1572356314421" duration="1096000" />
+      <workItem from="1573131632541" duration="27000" />
+      <workItem from="1573287539490" duration="626000" />
+      <workItem from="1573634640596" duration="37000" />
+      <workItem from="1573792262511" duration="92000" />
+      <workItem from="1573792805051" duration="1937000" />
+      <workItem from="1574173219637" duration="743000" />
+      <workItem from="1574213413300" duration="4176000" />
+      <workItem from="1574305305905" duration="601000" />
+      <workItem from="1582971027692" duration="2000" />
+      <workItem from="1582981543441" duration="295000" />
+      <workItem from="1582981863147" duration="189000" />
+      <workItem from="1582982303436" duration="61000" />
+      <workItem from="1582982410954" duration="310000" />
+      <workItem from="1582982767933" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1559662433377</created>
@@ -522,6 +660,19 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="发送私信" />
